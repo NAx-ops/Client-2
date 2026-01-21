@@ -2,17 +2,17 @@ import React, { useState } from 'react';
 import './Gallery.css';
 
 const images = [
-    { id: 1, src: '/art/Abby Profile.PNG', title: 'Abby Profile', description: 'Digital Art' },
-    { id: 2, src: '/art/Final Sketch update_0.jpg', title: 'Final Sketch', description: 'Sketch' },
-    { id: 3, src: '/art/Hair Stylist in action.JPG', title: 'Hair Stylist in Action', description: 'Photography' },
-    { id: 4, src: '/art/Hair Stylist poster.JPG', title: 'Hair Stylist Poster', description: 'Poster Design' },
-    { id: 5, src: '/art/IMG_1976.JPG', title: 'Composition', description: 'Artwork' },
-    { id: 6, src: '/art/Kila Profile.PNG', title: 'Kila Profile', description: 'Character Art' },
-    { id: 7, src: '/art/League Halloweeen Art.jpg', title: 'League Halloween', description: 'Fan Art' },
-    { id: 8, src: '/art/Nebula Profile.PNG', title: 'Nebula Profile', description: 'Character Design' },
-    { id: 9, src: '/art/Nebula charater sheet 2.JPG', title: 'Nebula Character Sheet', description: 'Concept Art' },
-    { id: 10, src: '/art/Pandora Porfile.PNG', title: 'Pandora Profile', description: 'Character Portrait' },
-    { id: 11, src: '/art/Y2K Inspo.JPG', title: 'Y2K Inspiration', description: 'Mood Board' }
+    { id: 1, src: 'art/Abby Profile.PNG', title: 'Abby Profile', description: 'Digital Art' },
+    { id: 2, src: 'art/Final Sketch update_0.jpg', title: 'Final Sketch', description: 'Sketch' },
+    { id: 3, src: 'art/Hair Stylist in action.JPG', title: 'Hair Stylist in Action', description: 'Photography' },
+    { id: 4, src: 'art/Hair Stylist poster.JPG', title: 'Hair Stylist Poster', description: 'Poster Design' },
+    { id: 5, src: 'art/IMG_1976.JPG', title: 'Composition', description: 'Artwork' },
+    { id: 6, src: 'art/Kila Profile.PNG', title: 'Kila Profile', description: 'Character Art' },
+    { id: 7, src: 'art/League Halloweeen Art.jpg', title: 'League Halloween', description: 'Fan Art' },
+    { id: 8, src: 'art/Nebula Profile.PNG', title: 'Nebula Profile', description: 'Character Design' },
+    { id: 9, src: 'art/Nebula charater sheet 2.JPG', title: 'Nebula Character Sheet', description: 'Concept Art' },
+    { id: 10, src: 'art/Pandora Porfile.PNG', title: 'Pandora Profile', description: 'Character Portrait' },
+    { id: 11, src: 'art/Y2K Inspo.JPG', title: 'Y2K Inspiration', description: 'Mood Board' }
 ];
 
 const Gallery = () => {
